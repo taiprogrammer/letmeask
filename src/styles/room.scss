@@ -13,7 +13,17 @@
             > img {
                 max-height: 45px;
             }
+
+            > div {
+                display: flex;
+                gap: 16px;
+
+                button {
+                    height: 40px;
+                }
+            }
         }
+        
     }
 
     main {
@@ -54,6 +64,8 @@
                 min-height: 130px;
                 outline: none;
             }
+
+            
 
             .form-footer {
                 display: flex;
@@ -99,6 +111,10 @@
                     }
                 }
             }
+        }
+
+        .question-list {
+            margin-top: 32px;
         }
     }
 }
